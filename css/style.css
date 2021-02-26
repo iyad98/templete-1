@@ -1,0 +1,302 @@
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+.container{
+    width: 1300px;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+ }
+
+.container-f{
+    width: 1100px;
+    margin: auto;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+ }
+
+ /* Start Nav  */
+
+ nav{
+     background-color: #FFFFFF;
+     box-shadow: 1px 1px 10px #ccc;
+     position: fixed;
+     width: 100%;
+     z-index: 5;
+ }
+
+ .nav-logo{
+     float: left;
+     padding: 10px;
+     margin: 7px;
+ }
+
+ .nav-logo:hover{
+    background-color: #ccc;
+}
+ .nav-logo a{
+     text-decoration: none;
+     color: black;
+     word-spacing: 5px;
+     font-size: 20px;
+ }
+
+ .nav-links{
+     float: right;
+     margin: 7px;
+  
+
+ }
+ .nav-links ul{
+     display: flex;
+ }
+ .nav-links li{
+     list-style: none;
+     padding: 10px;
+     margin-left: 10px;
+     cursor: pointer;
+     font-size: 20px;
+
+     /* border: solid blue; */
+ }
+ .nav-links li:hover{
+    background-color: #ccc;
+}
+
+ /* End Nav  */
+
+
+
+ /* Start Header  */
+ 
+
+
+.header-image{
+    background-image: url('../images/hamburger.jpg');
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+ /* End Header  */
+
+
+
+ /* Start About Catering  */
+
+@font-face{
+    /* src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf'); */
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf');
+    font-family: 'Playfair';
+}
+
+
+ .about-catering{
+     margin-top: 50px;
+     padding-bottom: 64px;
+ }
+
+ hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+ }
+
+
+.about-catering .container-f{
+        display: flex;
+        justify-content: space-between;
+
+
+   
+    }
+
+.about-catering-image{
+        padding: 10px;
+        padding-right: 40px;
+       
+    }
+
+.about-catering-image img{
+        height: 100%;
+        width: 500px;
+        opacity: 0.7;
+
+        
+    }
+.about-catering-text h3{
+        text-align: center;
+        line-height: 100px;
+        font-size: 40px;
+        font-family: "Playfair";
+    }
+.about-catering-text h5{
+        text-align: center;
+        line-height: 70px;
+        font-size: 20px;
+        font-family: monospace;
+
+    }
+.about-catering-text{
+        padding-left: 40px;
+        height: 100%;
+    }
+
+.about-catering-text .about-catering-paragraph p:nth-child(1){
+    line-height: 30px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+.about-catering-text .about-catering-paragraph p:nth-child(1) span{
+    background-color: #F1F1F1;
+    padding: 5px;
+        
+    }
+.about-catering-text .about-catering-paragraph p:nth-child(2){
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+ /* End About Catering  */
+
+
+ /* Start Our Menu  */
+
+
+ @font-face{
+    /* src: url('../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf'); */
+    src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf');
+    font-family: 'Playfair';
+}
+
+.our-menu{
+    margin-top: 100px;
+     padding-bottom: 64px;
+
+}
+
+.our-menu .container-f {
+    display: flex;
+    justify-content: space-between;
+}
+.our-menu .container-f .our-menu-text  h3{
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+    font-family: "Playfair";
+}
+
+.our-menu .container-f .our-menu-text .our-menu-text-paragraph div{
+    width: 100%;
+}
+
+.our-menu .container-f .our-menu-text .our-menu-text-paragraph div h4{
+    line-height: 50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.our-menu .container-f .our-menu-text .our-menu-text-paragraph div p{
+    line-height: 50px;
+    font-size: 15px;
+    color: #757575;
+
+}
+.our-menu .container-f .our-menu-image{
+    width: 50%;
+
+}
+.our-menu .container-f .our-menu-image img{
+    padding-left: 40px;
+
+}
+
+
+ 
+ /* End Our Menu  */
+
+
+ /* Start Contact  */
+
+ .contact{
+     margin-top: 100px;
+     padding-bottom: 64px;
+ }
+
+.contact .container-f .contact-info h3{
+
+    line-height: 100px;
+    font-size: 40px;
+    font-family: "Playfair";
+
+
+}
+.contact .container-f .contact-info .contact-info-in{
+
+    line-height: 25px;
+ 
+
+
+}
+.contact .container-f .contact-info h4{
+
+    line-height: 50px;
+    color: #607d8b;
+
+}
+.contact .container-f .contact-info .contact-info-details{
+    line-height: 50px;
+}
+
+.contact .container-f .contact-form{
+    width: 100%;
+}
+.contact .container-f .contact-form input[type='text'] , .contact .container-f .contact-form input[type='number'],
+.contact .container-f .contact-form input[type='datetime-local']
+{
+    width: 100%;
+    
+    padding: 16px 8px 16px 8px;
+
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 16px;
+    /* border-bottom:1px solid ; */
+}
+
+.contact .container-f .contact-form input[type='submit']{
+    background-color: #CCCCCC;
+    border: none;
+    padding: 10px;
+    margin: 30px 0;
+}
+
+
+
+
+ /* End Contact  */
+
+
+ /* Start Footer  */
+
+ footer{
+     padding: 50px;
+     background-color: #ccc;
+     text-align: center;
+ }
+ /* End Footer  */
